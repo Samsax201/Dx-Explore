@@ -1,0 +1,62 @@
+@media screen and (max-width: 1051px){
+    /* getstarted section starts here  */
+    .getstarted .text{
+        display: flex;
+        align-items: center;
+        /* height: 85px; */
+        color: white;
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    
+    .btn{
+        border: 0;
+        border-radius: 15px;
+        height: 38px;
+        width: 115px;
+        background: white;
+        margin-right: 35px;
+    }
+    .btn:hover{
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    .btn a{
+        text-align: center;
+        text-decoration: none;
+        color:  #FF6347;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    .btn a:hover{
+        color: white;
+    }
+    /* get started ends here  */
+    
+    /* footer section starts here  */
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .text{
+        display: flex;
+        align-items: center;
+        /* height: 70px; */
+        padding-left: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .footer-icon_hoolder{
+        display: flex;
+        align-items: center;
+        padding-right: 30px;
+        margin: 0  4px;
+        padding-bottom: 15px;
+    }
+    /* footer section starts here  */
+    
+}
