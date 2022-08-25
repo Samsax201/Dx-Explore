@@ -1,4 +1,55 @@
-@media screen and (max-width: 1051px){
+
+@media screen and (max-width: 1025px){
+    /* header starts here  */
+    body{
+        width: 100%;
+    }
+    
+    .nav-desktop{
+        display: none;
+    }
+       .header{
+        display: flex;
+        padding-top: 50px ;
+        align-items: center;
+        justify-content: center;
+    }
+    .space{
+        display: none;
+    }
+    .header .text{
+        /* text-align: center?; */
+        width: 100%;
+        padding: 40px 70px;
+        color: white;
+    }
+    .header .text h2{
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .header .text p{
+        font-size: 15px ;
+        font-weight: bold;
+    }
+    .header .text button{
+        border: 0;
+        border-radius: 25px;
+        margin-top: 30px;
+        height: 50px;
+        width: 230px;
+        background:#FF6347 ;
+    }
+    button span{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .learn{
+        color: white;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    /* header ends here  */
+
     /* getstarted section starts here  */
     .getstarted .text{
         display: flex;
@@ -44,9 +95,9 @@
     footer .text{
         display: flex;
         align-items: center;
-        /* height: 70px; */
-        padding-left: 20px;
-        font-size: 20px;
+        /* justify-self: center; */
+        font-size: 25px;
+        /* padding-right: 30px; */
         font-weight: 700;
         text-align: center;
     }
@@ -58,5 +109,5 @@
         padding-bottom: 15px;
     }
     /* footer section starts here  */
+}    
     
-}
