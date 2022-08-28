@@ -15,10 +15,26 @@
 <body>
     <!-- header section starts here  -->
     
-
+    <div class="backdrop" onclick="addclass()"></div>
     <section class="header-banner">
+        <nav class="nav-mobile">
+            <div class="logos">
+                <h2>EXPLORER</h2>
+            </div>
+            <div class="menubars" onclick="addclass()">
+                <div class="menubar"></div>
+            </div>
+            <div class="mobile-link" onclick="addclass()">
+                <ul>
+                    <li><a href="#" class="topbars active-link"><h3>HOME</h3></a></li>
+                    <li><a href="#" class="topbars"><h3>ABOUT</h3></a></li>
+                    <li><a href="#" class="topbars"><h3>CONTACT</h3></a></li>
+                </ul>
+            </div>
+            
+        </nav>
         <div class="header-all">
-            <div class="nav-desktop">
+            <nav class="nav-desktop">
                 <div class="logo"><h2>EXPLORER</h2></div>
                 <div class="links">
                     <ul>
@@ -27,7 +43,8 @@
                         <li><a href="" class="topbar"><h3>CONTACT</h3></a></li>
                     </ul>
                 </div>
-            </div>
+            </nav>    
+            
             <div class="header">
                 <div class="space"></div>
                 <div class="text">
@@ -148,5 +165,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
