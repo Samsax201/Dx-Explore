@@ -8,6 +8,13 @@ body{
     /* width: 100%; */
     min-width: 900px;
 }
+/* reuseables ?\ */
+a{
+    text-decoration: none;
+}
+/* reuseables ?\ */
+
+
 .backdrop{
     width: 100%;
     height: 100%;
@@ -17,7 +24,7 @@ body{
     position:fixed;
     display:none;
 }
-/* header starts here  */
+/* header banner starts here  */
 .header-banner{ 
     /* border: 3px solid blue; */
     max-width: 1500px;
@@ -25,16 +32,10 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.header-all{
-    width: 90%;
-    margin: 0 auto;
-    /* border: 3px solid blue; */
-}
 /* nav mobile starts here  */
 .nav-mobile{
     background: #FF6347;
     width: 100%;
-    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +43,7 @@ body{
     display: none;
 }
 .logos{
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bolder;
     color: white;
     padding-left: 40px;
@@ -92,43 +93,44 @@ body{
 }
 .mobile-link{
     display: none;
-    /* display: flex; */
-    /* flex-direction: column; */
     width: 100%;
-    height: 35vh;
     position: fixed;
-    left: 0;
     top: 0;
     background:  #FF6347;
     margin-top: 90px;
 }
 .mobile-link ul{
+    /* border: 3px solid black; */
     display: flex;
     flex-direction: column;
+    justify-content: left;
     width: 100%;
     margin-top: 40px;
-    padding: 0 !important;
 }
 .showlinks{
     display: block;
     width: 100%;
 }
 .mobile-link li{
-    padding: 0 !important;
+    /* border: 3px solid black; */
+    padding-left: 0;
     list-style: none;
     font-size: 20px;
-    width: 100;
+    width: 100%;
 
 }
 .topbars{
-    width: 100%;
-    font-size: 30px;
+    font-size: 35px;
     display: block;
-    padding: 15px 0;
+    justify-content: flex-start;
+    padding: 30px 0;
     text-decoration: none;
     color: white;
 }
-.topbars:hover,
+.topbars:hover{
+    background: white;
+    color:  #FF6347;
+}
 .topbars:focus{
     background: white;
     color:  #FF6347;
@@ -138,23 +140,31 @@ body{
     color:  #FF6347;
 }
 /* nav mobile ends here  */
+/* nav desktop starts here */
+.header-all{
+    /* width: 90%; */
+    margin: 0 auto;
+    /* border: 3px solid blue; */
+}
 .nav-desktop{
+    border: 3px solid black;
     display: flex;
     align-items: center;
     color: white;
-    height: 120px;
+    padding: 15px 10px;
+    /* height: 120px; */
 }
 .logo{
     width: 50%;
 }
-.link{
+.links{
     width: 50%;
 }
 ul{
     display: flex;
     justify-content: space-evenly;
 }
-li{
+.links li{
     list-style: none;
     margin: 0 50px;
     font-size: 20px;
@@ -166,20 +176,15 @@ li{
     font-size: 20px;
     font-weight: bolder;
 }
-
+/* nav desktop ends here */
+/* header starts here */
 .header{
     display: flex;
-    padding-top: 50px ;
-}
-.space{
-    width: 40%;
-    /* border: 3px solid tomato; */
+    justify-content: flex-end;
 }
 .header .text{
     /* border: 3px solid green; */
-    width: 70%;
-    /* height: 400px; */
-    padding: 40px 70px;
+    padding: 40px ;
     color: white;
 }
 .header .text h2{
@@ -214,13 +219,13 @@ button span{
 .learn:hover{
     color: #FF6347;
 }
-/* header ends here  */
+/* header ends here */
+/* header banner ends here  */
 /* six boxes section starts here  */
 .six-boxes{
     max-width: 1500px;
     /* border: 3px solid ; */
     width: 100%;
-    /* height: 650px; */
 }
 .arrangement{
     /* border: 3px solid black; */
@@ -230,7 +235,6 @@ button span{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* align-items: center; */
     justify-content: space-evenly;
 }
 .boxes{
@@ -238,9 +242,7 @@ button span{
     color: white;
     border-radius: 20px;
     padding: 25px 15px;
-    /* height: 230px; */
-    width: 275px;
-    /* border: 3px solid black; */
+    width: 350px;
     margin: 35px 0;
 }
 .boxes h2{
@@ -262,15 +264,12 @@ button span{
 .btn:hover{
     background: transparent;
     border: 2px solid white;
+    /* color: white; */
+}
+.btn:hover a{
     color: white;
 }
 /* six boxes section ends here  */
-/* reuseables ?\ */
-a{
-    text-decoration: none;
-}
-/* reuseables ?\ */
-
 /* get started starts here  */
 .getstarted{
     max-width: 1500px;
@@ -288,7 +287,6 @@ a{
     color: white;
     padding-left: 30px;
 }
-
 .btn{
     border: 0;
     border-radius: 15px;
@@ -318,7 +316,6 @@ footer{
     background: black;
     border: 3px solid black;
     width: 100%;
-    /* height: 75px; */
     color: white;
     display: flex;
     justify-content: space-between;
@@ -327,10 +324,9 @@ footer{
 footer .text{
     display: flex;
     align-items: center;
-    height: 70px;
-    padding-left: 20px;
-    font-size: 28px;
-    font-weight: 700;
+    padding:20px 20px;
+    font-size: 18px;
+    font-weight: 400;
     text-align: center;
 }
 .footer-icon_hoolder{
