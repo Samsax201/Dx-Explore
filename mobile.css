@@ -33,17 +33,17 @@
         border: 0;
         border-radius: 25px;
         margin-top: 30px;
-        height: 60px;
-        width: 245px;
+        height: 50px;
+        width: 200px;
         background:#FF6347 ;
     }
     button span{
-        font-size: 28px;
-        margin-left: 17px;
+        font-size: 20px;
+        margin-left: 10px;
     }
     .learn{
         color: white;
-        font-size: 23px;
+        font-size: 20px;
         font-weight: bolder;
     }
     /* header ends here  */
@@ -86,10 +86,6 @@
         margin-top: 20px;
         margin-right: 35px; 
     }
-    .sixe{
-        font-size: 20px;
-    }
-
     .btn:hover{
         background: transparent;
         border: 2px solid white;
