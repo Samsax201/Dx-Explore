@@ -23,6 +23,11 @@
     }
     .header .text h2{
         margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .header .text p{
+        font-size: 15px ;
+        font-weight: bolder;
     }
     .header .text button{
         border: 0;

@@ -39,7 +39,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 20px 0;
     display: none;
 }
 .logos{
@@ -147,7 +147,7 @@ a{
     /* border: 3px solid blue; */
 }
 .nav-desktop{
-    border: 3px solid black;
+    /* border: 3px solid black; */
     display: flex;
     align-items: center;
     color: white;
