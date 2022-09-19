@@ -27,7 +27,7 @@ a{
 /* header banner starts here  */
 .header-banner{ 
     /* border: 3px solid blue; */
-    max-width: 1500px;
+    /* max-width: 1500px; */
     background: linear-gradient(0deg, rgba(255, 99, 71, 0.35), rgba(255, 99, 71, 0.35)), url(./header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -223,7 +223,7 @@ button span{
 /* header banner ends here  */
 /* six boxes section starts here  */
 .six-boxes{
-    max-width: 1500px;
+    /* max-width: 1500px; */
     /* border: 3px solid ; */
     width: 100%;
 }
@@ -272,7 +272,7 @@ button span{
 /* six boxes section ends here  */
 /* get started starts here  */
 .getstarted{
-    max-width: 1500px;
+    /* max-width: 1500px; */
     width: 100%;
     background: #FF6347;
     /* height: 100px; */
@@ -312,7 +312,7 @@ button span{
 /* get started ends here  */
 /* footer section starts here  */
 footer{
-    max-width: 1500x;
+    /* max-width: 1500x; */
     background: black;
     border: 3px solid black;
     width: 100%;
